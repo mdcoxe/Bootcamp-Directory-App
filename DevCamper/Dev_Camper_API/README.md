@@ -36,6 +36,6 @@ node seeder -d
 node seeder -i
 ```
 
-## Built from Tutorial
+## Built from a Tutorial
 
-- All the credit goes to Brad Traversy and his course NodeJS API Masterclass on Udemy
+- Credit for the tutorial and teaching me through building the API goes to Brad Traversy and his course NodeJS API Masterclass on Udemy
