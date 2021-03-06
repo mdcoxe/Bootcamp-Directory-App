@@ -6,7 +6,7 @@ As of 3/3/21 haven't completed the authentication, security, deployment or docum
 
 ## Postman Documentation
 
-![Postman Documentation](https://documenter.getpostman.com/view/13691704/Tz5jefjt)
+[Documentation](https://documenter.getpostman.com/view/13691704/Tz5jefjt)
 
 ### Bootcamps
 
