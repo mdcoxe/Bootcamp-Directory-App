@@ -1,8 +1,12 @@
 # Purpose
 
-Create the backend for a bootcamp directory website built using a tutorial from udemy. The frontend/UI was provided by the tutorial. The html/css template has been created and can be used as a reference for functionality. All of the functionality below will be fully implmented in this project.
+Create the backend for a bootcamp directory website built using a tutorial from udemy. All of the functionality below will be fully implmented in this project.
 
 As of 3/3/21 haven't completed the authentication, security, deployment or documentation portions yet.
+
+## Postman Documentation
+
+![Postman Documentation](https://documenter.getpostman.com/view/13691704/Tz5jefjt)
 
 ### Bootcamps
 
@@ -103,25 +107,3 @@ As of 3/3/21 haven't completed the authentication, security, deployment or docum
 - Use Postman to create documentation
 - Use docgen to create HTML files from Postman
 - Add html files as the / route for the api
-
-## Deployment (Digital Ocean)
-
-- Push to Github
-- Create a droplet - https://m.do.co/c/5424d440c63a
-- Clone repo on to server
-- Use PM2 process manager
-- Enable firewall (ufw) and open needed ports
-- Create an NGINX reverse proxy for port 80
-- Connect a domain name
-- Install an SSL using Let's Encrypt
-
-## Code Related Suggestions
-
-- NPM scripts for dev and production env
-- Config file for important constants
-- Use controller methods with documented descriptions/routes
-- Error handling middleware
-- Authentication middleware for protecting routes and setting user roles
-- Validation using Mongoose and no external libraries
-- Use async/await (create middleware to clean up controller methods)
-- Create a database seeder to import and destroy data
